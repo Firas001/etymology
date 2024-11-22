@@ -21,10 +21,150 @@
         "image": "imgs/cardio.jpg"
     },
     {
-        "root": "Clude",
-        "meaning": "man",
-        "example": "anthropology",
-        "exampleMeaning": "the study of human",
+        "root": "cred",
+        "meaning": "trust",
+        "example": "credit card",
+        "exampleMeaning": "payment card",
+        "image": "imgs/cred.jpg"
+    },
+    {
+        "root": "clude",
+        "meaning": "close/shut",
+        "example": "conclude",
+        "exampleMeaning": "bring something to the end",
         "image": "imgs/clude.jpg"
+    },
+    {
+        "root": "co-",
+        "meaning": "together",
+        "example": "contact",
+        "exampleMeaning": "touch/connection",
+        "image": "imgs/co.jpg"
+    },
+    {
+        "root": "derma",
+        "meaning": "skin",
+        "example": "Dermatologist",
+        "exampleMeaning": "skin expert",
+        "image": "imgs/derma.jpg"
+    },
+    {
+        "root": "-dict-",
+        "meaning": "to say",
+        "example": "dictum",
+        "exampleMeaning": "noteworthy statement",
+        "image": "imgs/dict.jpg"
+    },
+    {
+        "root": "equi-",
+        "meaning": "equal",
+        "example": "equivalent",
+        "exampleMeaning": "parity",
+        "image": "imgs/equi.jpg"
+    },
+    {
+        "root": "geo",
+        "meaning": "earth",
+        "example": "geography",
+        "exampleMeaning": "earth science",
+        "image": "imgs/geo.jpg"
+    },
+    {
+        "root": "gen",
+        "meaning": "birth",
+        "example": "generation",
+        "exampleMeaning": "group of people in a particular time",
+        "image": "imgs/gen.jpg"
+    },
+    {
+        "root": "graphy",
+        "meaning": "to write",
+        "example": "geography",
+        "exampleMeaning": "description study of earth",
+        "image": "imgs/graphy.jpg"
+    },
+    {
+        "root": "hydro",
+        "meaning": "water",
+        "example": "hydrate",
+        "exampleMeaning": "formed by water",
+        "image": "imgs/hydro.jpg"
+    },
+    {
+        "root": "mal",
+        "meaning": "bad",
+        "example": "malnutrition",
+        "exampleMeaning": "hunger",
+        "image": "imgs/mal.jpg"
+    },
+    {
+        "root": "micro-",
+        "meaning": "small",
+        "example": "microfilm",
+        "exampleMeaning": "reel",
+        "image": "imgs/micro.jpg"
+    },
+    {
+        "root": "path",
+        "meaning": "feeling",
+        "example": "sympathy",
+        "exampleMeaning": "kind-heartedness",
+        "image": "imgs/path.jpg"
+    },
+    {
+        "root": "paed",
+        "meaning": "child",
+        "example": "paediatrics",
+        "exampleMeaning": "medical care of children",
+        "image": "imgs/paed.jpg"
+    },
+    {
+        "root": "psycho",
+        "meaning": "mind",
+        "example": "psychology",
+        "exampleMeaning": "study of the mind",
+        "image": "imgs/psycho.jpg"
+    },
+    {
+        "root": "pseudo-",
+        "meaning": "false",
+        "example": "pseudonym",
+        "exampleMeaning": "false name",
+        "image": "imgs/pseudo.jpg"
+    },
+    {
+        "root": "retro-",
+        "meaning": "backward",
+        "example": "retrospect",
+        "exampleMeaning": "a looking back on things",
+        "image": "imgs/retro.jpg"
+    },
+    {
+        "root": "ver",
+        "meaning": "truth",
+        "example": "verify",
+        "exampleMeaning": "confirm something",
+        "image": "imgs/ver.jpg"
+    },
+    {
+        "root": "verse",
+        "meaning": "turn/change",
+        "example": "reverse",
+        "exampleMeaning": "contract",
+        "image": "imgs/verse.jpg"
+    },
+    {
+        "root": "tact",
+        "meaning": "touch",
+        "example": "tactile",
+        "exampleMeaning": "touch-sensitive",
+        "image": "imgs/tact.jpg"
+    },
+    {
+        "root": "sense",
+        "meaning": "perception",
+        "example": "senseless",
+        "exampleMeaning": "absence of awareness",
+        "image": "imgs/sense.jpg"
     }
 ]
