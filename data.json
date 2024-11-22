@@ -4,27 +4,27 @@
         "meaning": "man",
         "example": "anthropology",
         "exampleMeaning": "the study of human",
-        "image": "/imgs/anthro.png"
+        "image": "imgs/anthro.png"
     },
     {
         "root": "bio",
         "meaning": "life",
         "example": "biology",
         "exampleMeaning": "the study of life",
-        "image": "/imgs/bio.jpg"
+        "image": "imgs/bio.jpg"
     },
     {
         "root": "cardio",
         "meaning": "heart",
         "example": "cardiac",
         "exampleMeaning": "pertaining to the heart",
-        "image": "/imgs/cardio.jpg"
+        "image": "imgs/cardio.jpg"
     },
     {
         "root": "Clude",
         "meaning": "man",
         "example": "anthropology",
         "exampleMeaning": "the study of human",
-        "image": "/imgs/clude.jpg"
+        "image": "imgs/clude.jpg"
     }
 ]
