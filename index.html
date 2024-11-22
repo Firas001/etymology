@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etymology Words</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f9;
+        color: #333;
+      }
+      .container {
+        width: 90%;
+        margin: 20px auto;
+        max-width: 800px;
+        background: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        overflow: hidden;
+      }
+      .header {
+        background-color: #007acc;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      .header h1 {
+        margin: 0;
+        font-size: 24px;
+      }
+      .word-section {
+        padding: 20px;
+        border-bottom: 1px solid #ddd;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+      }
+      .word-section:last-child {
+        border-bottom: none;
+      }
+      .word-title {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-transform: capitalize;
+        
+      }
+      .col2 img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+      }
+
+      @media (max-width: 600px) {
+        .col2 img {
+          width: 100px;
+          height: 100px;
+        }
+      }
+
+      .details p {
+        margin: 5px 0;
+      }
+      .footer {
+        text-align: center;
+        padding: 10px;
+        background: #007acc;
+        color: white;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Etymology Words</h1>
+      </div>
+      <div id="word-container">
+        <!-- Dynamic content will be inserted here -->
+      </div>
+      <div class="footer">Designed by Firas</div>
+    </div>
+    <script>
+      // Fetch data from JSON file and populate HTML
+      fetch("data.json")
+        .then((response) => response.json())
+        .then((data) => {
+          const container = document.getElementById("word-container");
+          data.forEach((item) => {
+            const section = document.createElement("div");
+            section.classList.add("word-section");
+
+            section.innerHTML = `
+                        <div class="col1">
+                            <div class="word-title">${item.root}</div>
+                            <div class="details">
+                                <p><strong>Root Meaning:</strong> ${item.meaning}</p>
+                                <p><strong>Example:</strong> ${item.example}</p>
+                                <p><strong>Example Meaning:</strong> ${item.exampleMeaning}</p>
+                            </div>
+                        </div>
+                        <div class="col2">
+                                <img src="${item.image}" alt="${item.root}">
+                        </div>
+                    `;
+
+            container.appendChild(section);
+          });
+        })
+        .catch((error) => console.error("Error loading JSON:", error));
+    </script>
+  </body>
+</html>
